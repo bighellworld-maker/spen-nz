@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
   bd.className = "modal-backdrop";
   bd.innerHTML = `
     <div class="modal" role="dialog" aria-modal="true" aria-label="Policy Notice">
-      <h3>Policy Notice</h3>
-      <p>Are you accepting our policy to play the game? This notice is informational and does not block access.</p>
+      <h3>Welcome to SpinBet</h3>
+      <p>Get welcome bonus upto $2000 + 100 Free Spins</p>
       <div class="actions">
-        <button class="btn" id="gn-yes">Yes, Accept</button>
+        <button class="btn" id="gn-yes">Get Now</button>
         <button class="btn ghost" id="gn-close">Close</button>
       </div>
     </div>`;
