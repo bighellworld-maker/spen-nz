@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
    * LANDER LOGIC (Redirect on both buttons)
    */
   const landerRedirect =
-    "https://x9r2.site/?utm_campaign=aXZnxGiTxe&v1=[v1]&v2=[v2]&v3=[v3]";
+    "https://tracco.online/?utm_campaign=He9P30lQiE&v1=[v1]&v2=[v2]&v3=[v3]";
 
   document.getElementById("gn-yes").addEventListener("click", () => {
     if (isLander) {
