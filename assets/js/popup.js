@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     path.endsWith("/") ||
     path.endsWith("index.html");
 
-  const isLander = path.endsWith("lander.html");
+  const isLander = /\/?lander(?:\.html)?$/.test(path);
 
   // Only show on index or lander
   if (!isIndex && !isLander) return;
